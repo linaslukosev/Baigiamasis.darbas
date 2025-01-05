@@ -1,4 +1,4 @@
-/* Bendri stiliai */
+
 body {
     font-family: 'Lato', sans-serif;
     margin: 0;
@@ -28,7 +28,7 @@ img {
     margin: 0 auto;
 }
 
-/* Navigacija */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -40,7 +40,7 @@ img {
 }
 
 .navbar .logo {
-    font-size: 1rem; /* Mažesnis šriftas */
+    font-size: 1rem; 
     color: #000000;
     padding-inline: 150px;
 }
@@ -53,14 +53,14 @@ img {
     padding: 0.5rem 1rem;
     cursor: pointer;
     border-radius: 4px;
-    font-size: 0.8rem; /* Mažesnis šriftas siauresniems ekranams */
+    font-size: 0.8rem;
 }
 
 .signin-form button:hover {
     background: #0056b3;
 }
 
-/* Hero sekcija */
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -74,7 +74,7 @@ img {
 }
 
 .hero h1 {
-    font-size:2.7rem; /* Mažesnis šriftas siauresniems ekranams */
+    font-size:2.7rem; 
     margin-bottom: 0.25rem;
 }
 
@@ -108,10 +108,10 @@ img {
     background: #0056b3;
 }
 
-/* Features sekcija */
+
 .features {
     display: flex;
-    flex-direction: row; /* Eilutėse, o ne stulpeliuose siauriems ekranams */
+    flex-direction: row; 
     padding: 5.5rem 7rem;
     text-align: center;
 }
@@ -134,7 +134,7 @@ img {
 /* Content sekcija */
 .content {
     display: grid;
-    grid-template-columns: 1fr; /* Vienas stulpelis siauresniems ekranams */
+    grid-template-columns: 1fr; 
     gap: 0rem;
     padding: 0rem;
     background-color: white;
@@ -142,13 +142,13 @@ img {
 
 .content-item {
     display: flex;
-    flex-direction: row; /* Vertikali struktūra siauriems ekranams */
+    flex-direction: row; 
     align-items: center;
     text-align: left;
 }
 
 .content-item img {
-    width: 50%; /* Užtikrina, kad paveikslėlis bus tinkamai dydžio */
+    width: 50%; 
   
   
 }
@@ -158,17 +158,17 @@ img {
 }
 
 .content-item h3 {
-    font-size: 1.3rem; /* Mažesnis šriftas siauresniems ekranams */
+    font-size: 1.3rem; 
     margin-bottom: 0.5rem;
     font-weight: bold;
 }
 
 .content-item p {
-    font-size: 0.9rem; /* Mažesnis šriftas */
+    font-size: 0.9rem; 
     line-height: 1.4;
 }
 
-/* Atsiliepimų sekcija */
+
 .testimonials {
     text-align: center;
     padding: 5rem 1rem;
@@ -177,8 +177,8 @@ img {
 .testimonial-container {
     display: flex;
     justify-content: center;
-    gap: 2rem; /* Space between testimonials */
-    flex-wrap: wrap; /* Adjust layout for smaller screens */
+    gap: 2rem; 
+    flex-wrap: wrap; 
 }
 .testimonial {
     display: inline-block;
@@ -205,7 +205,7 @@ footer {
 
 footer h2 {
     margin-bottom: 1rem;
-    font-size: 1.5rem; /* Mažesnis šriftas siauresniems ekranams */
+    font-size: 1.5rem;
 }
 
 footer .signup-form input {
@@ -232,28 +232,28 @@ footer .signup-form button:hover {
 /* Desktop versija */
 @media (min-width: 1900px) {
     .container {
-        max-width: 1400px; /* Padidink plotį, jei reikia */
-        margin: 0 auto; /* Centruok puslapį */
+        max-width: 1400px; 
+        margin: 0 auto; 
     }
 
     .navbar {
-        justify-content: space-between; /* Palik daugiau vietos tarp elementų */
+        justify-content: space-between; 
     }
 
     .features {
-        grid-template-columns: repeat(4, 1fr); /* Keturi stulpeliai desktop versijai */
+        grid-template-columns: repeat(4, 1fr); 
     }
 
     .hero h1 {
-        font-size: 3rem; /* Didelis šriftas desktop versijai */
+        font-size: 3rem; 
     }
 
     .content {
-        grid-template-columns: repeat(2, 1fr); /* Du stulpeliai tekstui ir vaizdams */
-        gap: 2rem; /* Didesni tarpai */
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 2rem; 
     }
 
     footer {
-        font-size: 1.2rem; /* Didesni šriftai footer sekcijoje */
+        font-size: 1.2rem; 
     }
 }
